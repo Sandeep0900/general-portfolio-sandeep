@@ -349,7 +349,7 @@ const Footer = () => {
           <div className="text-base sm:text-lg flex items-baseline gap-x-1.5">
             Located in{" "}
             <span className="relative font-bold text-purple-500 hover:bg-none">
-              India
+              Pune, Maharashtra, India
               <Image
                 className="h-14 w-auto absolute inset-0 z-10 opacity-0 -top-3 transition-opacity hover:opacity-100"
                 src={India}

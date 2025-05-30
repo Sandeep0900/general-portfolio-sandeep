@@ -20,7 +20,7 @@ const About = () => {
             animationDelay: "0.6s",
           }}
         >
-          Sameer Gupta
+          Sandeep Sharma
         </h1>
         <div
           className="flex flex-col justify-center items-center text-xl -mt-5 font-montserrat tracking-[.7rem] opacity-0"
@@ -29,7 +29,7 @@ const About = () => {
             animationDelay: "1s",
           }}
         >
-          <h3>- Research Engineer Intern @ SimPPL -</h3>
+          <h3>- Computer Engineering @ GHRCEM Pune -</h3>
         </div>
       </div>
 

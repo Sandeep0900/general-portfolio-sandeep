@@ -14,7 +14,7 @@ const hiatusFont = localFont({
 });
 
 export const metadata = {
-  title: "Sameer Gupta",
+  title: "Sandeep Sharma",
   description: "May the force be with you!",
 };
 

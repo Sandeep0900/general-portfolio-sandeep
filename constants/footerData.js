@@ -9,31 +9,31 @@ export const socialLinks = [
     {
         id: 1,
         icon: <FaGithub />,
-        link: "https://github.com/sameer240704",
+        link: "https://github.com/Sandeep0900",
         label: "GitHub"
     },
     {
         id: 2,
         icon: <FaLinkedin />,
-        link: "https://www.linkedin.com/in/sameergupta24/",
+        link: "https://www.linkedin.com/in/sandeep--sharma/",
         label: "LinkedIn"
     },
     {
         id: 3,
         icon: <FaInstagram />,
-        link: "https://instagram.com/sameergupta.24",
+        link: "https://www.instagram.com/sandeep_._20_._",
         label: "Instagram"
     },
     {
         id: 4,
         icon: <FaXTwitter />,
-        link: "https://x.com/SameerGupt348",
+        link: "https://x.com/Anup_9960",
         label: "Twitter"
     },
     {
         id: 5,
         icon: <MdEmail />,
-        link: "mailto:sameergupta79711@gmail.com",
+        link: "mailto:sandeesharma09@gmail.com",
         label: "Email"
     }
 ];

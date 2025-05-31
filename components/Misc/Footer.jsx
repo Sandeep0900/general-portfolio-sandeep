@@ -1,7 +1,7 @@
 "use client";
 
 import { MapPin } from "lucide-react";
-import { India } from "@/public";
+import { India, Pune, Maharashtra } from "@/public";
 import Image from "next/image";
 import { socialLinks } from "@/constants/footerData";
 import React, { useState, useEffect } from "react";
@@ -258,7 +258,7 @@ const NavigationMenu = ({ isOpen }) => {
 };
 
 const NavigationBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [isAnimating, setIsAnimating] = useState(false);
   const [hover, setHover] = useState(false);
 
@@ -349,7 +349,23 @@ const Footer = () => {
           <div className="text-base sm:text-lg flex items-baseline gap-x-1.5">
             Located in{" "}
             <span className="relative font-bold text-purple-500 hover:bg-none">
-              Pune, Maharashtra, India
+              Pune,
+              <Image
+                className="h-14 w-auto absolute inset-0 z-10 opacity-0 -top-3 transition-opacity hover:opacity-100"
+                src={Pune}
+                alt="pune"
+              />
+            </span>
+             <span className="relative font-bold text-purple-500 hover:bg-none">
+               Maharashtra,
+              <Image
+                className="h-14 w-auto absolute inset-0 z-10 opacity-0 -top-3 transition-opacity hover:opacity-100"
+                src={Maharashtra}
+                alt="Maharashtra"
+              />
+            </span>
+            <span className="relative font-bold text-purple-500 hover:bg-none">
+               India
               <Image
                 className="h-14 w-auto absolute inset-0 z-10 opacity-0 -top-3 transition-opacity hover:opacity-100"
                 src={India}

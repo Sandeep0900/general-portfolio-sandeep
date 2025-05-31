@@ -1,4 +1,6 @@
 import India from "./images/india-outline.png";
+import Pune from "./images/Pune.png";
+import Maharashtra from "./images/Maharashtra.png";
 
 // Web Projects
 import VaniVikasWeb from "./images/projects/web/VANI_VIKAS_WEB.png";
@@ -10,4 +12,4 @@ import Law4AllWeb from "./images/projects/web/LAW4ALL_WEB.jpeg";
 import D2K_Web from "./images/projects/web/D2K_WEB.png";
 import Portfolio_Web from "./images/projects/web/PORTFOLIO_WEB.png";
 
-export { India, VaniVikasWeb, BandhuWeb, VerityFinanceWeb, LocWeb, HacknicheWeb, Law4AllWeb, D2K_Web, Portfolio_Web }
+export { Maharashtra, Pune, India, VaniVikasWeb, BandhuWeb, VerityFinanceWeb, LocWeb, HacknicheWeb, Law4AllWeb, D2K_Web, Portfolio_Web }

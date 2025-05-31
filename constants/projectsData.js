@@ -67,7 +67,7 @@ export const projectsData = [
             "Welcome to Multi-Game Interface, a web-based platform that consolidates multiple games and applications onto a single page for easy access. Each game is hosted separately and linked through this interface. This project aims to provide a simple and engaging experience for users to enjoy various games in one place.",
         image: VerityFinanceWeb,
         isWinner: false,
-        hackathon: "Datazen 2025",
+        hackathon: "DIY 2023-24",
         technologies: [
             "HTML5",
             "CSS3",
@@ -75,7 +75,7 @@ export const projectsData = [
             "JavaScript"
         ],
         link: "https://github.com/sameer240704/verity-finance-datazen",
-        madeAt: "Datazen 2025",
+        madeAt: "DIY 2023-24",
     },
     {
         id: 4,
